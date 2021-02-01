@@ -37,13 +37,14 @@
   flex-direction: column;
   text-align: start;
   padding-left: 60px;
+  font-size: 30px;
 
 }
 .page-contact-social {
   display: flex;
   justify-content: center;
   width: 100%;
-  /* padding-left: 60px; */
+  padding-top: 20px;
 }
 
 .page-contact-social-box {

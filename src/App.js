@@ -27,7 +27,7 @@ function App() {
           </div>
         </nav>
       </header>  
-      
+
           <Route path="/" exact component={Home}/>
           <Route path="/about" exact component={About}/>
           <Route path="/contact" exact component={Contact}/>
@@ -36,7 +36,7 @@ function App() {
           <Route path="/faq" exact component={Faq}/>
 
       <footer className="App-footer">
-        <h5>@ 2021 Brazilian Blowout</h5>
+        <text>@ 2021 Brazilian Blowout</text>
       </footer>
     </div>
   </Router>
