@@ -3,11 +3,12 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-}
+  height: 100%;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);}
 
 .App-header {
-  background-color: #f2d4c2;
-  height: 100px;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -15,6 +16,7 @@
   font-size: calc(10px + 2vmin);
   color: black;
   position: fixed;
+  top:0;
   width: 100%;
 }
 
@@ -79,8 +81,8 @@ text-decoration: none;
 }
 
 .App-footer {
-  background-color: #f2d4c2;
-  height: 250px;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,6 +90,8 @@ text-decoration: none;
   font-size: calc(10px + 2vmin);
   color: black;
   width: 100%;
+  bottom: 0;
+  padding-top: 20px;
   font-size: 20px;
   /* text-align: center; */
 }

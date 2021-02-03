@@ -1,3 +1,33 @@
 .page-login {
-  margin-top: 100px;
+  padding-top: 10vh;
+  height: 75vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.page-login-logo {
+  padding-top: 20px;
+  height: auto;
+  width: auto;
+}
+
+.page-login-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-login-input-text {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.page-login-input-button {
+  width: 200px;
 }
